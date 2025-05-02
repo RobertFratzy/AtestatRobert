@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Veneția</title>
+  <link rel="stylesheet" href="venice.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie Interactivă - Veneția</h1>
+    <p>Descoperă locurile emblematice Veneției</p>
+  </header>
+
+  <main>
+    <div class="image-container">
+      <div class="image-wrapper">
+        <img id="mainImage" src="sfmarcu.jpg" alt="Colosseum">
+        <div class="overlay" id="imageText">Bazilica Sfântul Marcu</div>
+
+        <button class="nav-button left" onclick="prevImage()">‹</button>
+        <button class="nav-button right" onclick="nextImage()">›</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Galerie Veneția</p>
+  </footer>
+
+  <script src="venice.js"></script>
+</body>
+</html>
