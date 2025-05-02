@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Roma</title>
+  <link rel="stylesheet" href="roma.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie Interactivă - Roma</h1>
+    <p>Descoperă locurile emblematice ale Romei</p>
+  </header>
+
+  <main>
+    <div class="image-container">
+      <div class="image-wrapper">
+        <img id="mainImage" src="Coloseum.jpg" alt="Colosseum">
+        <div class="overlay" id="imageText">Colosseum</div>
+
+        <button class="nav-button left" onclick="prevImage()">‹</button>
+        <button class="nav-button right" onclick="nextImage()">›</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Galerie Roma</p>
+  </footer>
+
+  <script src="roma.js"></script>
+</body>
+</html>
